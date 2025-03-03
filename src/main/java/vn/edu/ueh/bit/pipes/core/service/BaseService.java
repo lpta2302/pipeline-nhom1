@@ -1,9 +1,9 @@
-package vn.edu.ueh.bit.pipes.simulate.service;
+package vn.edu.ueh.bit.pipes.core.service;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import vn.edu.ueh.bit.pipes.simulate.entity.BaseEntity;
+import vn.edu.ueh.bit.pipes.core.entities.BaseEntity;
 
 public abstract class BaseService<T extends BaseEntity> {
     public List<T> findAll() {

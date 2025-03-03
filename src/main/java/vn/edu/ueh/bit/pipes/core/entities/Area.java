@@ -1,4 +1,4 @@
-package vn.edu.ueh.bit.pipes.simulate.entity;
+package vn.edu.ueh.bit.pipes.core.entities;
 
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;

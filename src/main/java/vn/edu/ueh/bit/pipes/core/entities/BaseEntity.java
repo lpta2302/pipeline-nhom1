@@ -1,4 +1,4 @@
-package vn.edu.ueh.bit.pipes.simulate.entity;
+package vn.edu.ueh.bit.pipes.core.entities;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.GeneratedValue;

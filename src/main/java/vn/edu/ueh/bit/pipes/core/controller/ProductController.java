@@ -1,11 +1,10 @@
-package vn.edu.ueh.bit.pipes.simulate.controller;
+package vn.edu.ueh.bit.pipes.core.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
-import vn.edu.ueh.bit.pipes.simulate.entity.Product;
-import vn.edu.ueh.bit.pipes.simulate.service.ProductService;
-
+import vn.edu.ueh.bit.pipes.core.entities.Product;
+import vn.edu.ueh.bit.pipes.core.service.ProductService;
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
