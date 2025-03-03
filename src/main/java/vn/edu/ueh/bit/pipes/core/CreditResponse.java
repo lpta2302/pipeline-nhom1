@@ -3,7 +3,7 @@ package vn.edu.ueh.bit.pipes.core;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class CreditNote {
+public class CreditResponse {
     private Long creditNote;
     private String notes;
     private boolean cancellation;

@@ -1,6 +1,6 @@
 package vn.edu.ueh.bit.pipes.pipes;
 
-import vn.edu.ueh.bit.pipes.core.entities.IFilter;
+import vn.edu.ueh.bit.pipes.core.entities.interfaces.IFilter;
 
 public abstract class PipelineBase<T> {
     public PipelineBase() {

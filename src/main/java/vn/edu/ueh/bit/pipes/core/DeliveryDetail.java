@@ -3,19 +3,19 @@ package vn.edu.ueh.bit.pipes.core;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class Note {
-    private Long noteId;
+public class DeliveryDetail {
+    private Long id;
     private boolean delivery;
     private String note;
     private String deliveryAdd;
 
     // Getter và Setter
     public Long getNodeId() {
-        return noteId;
+        return id;
     }
 
     public void setNodeId(Long noteId) {
-        this.noteId = noteId;
+        this.id = noteId;
     }
 
     public boolean isDelivery() {
@@ -57,7 +57,7 @@ public class Note {
     @Override
     public String toString() {
         return "Note{" +
-                "noteId=" + noteId +
+                "noteId=" + id +
                 ", isDelivery=" + delivery +
                 ", note='" + note + '\'' +
                 ", deliveryAdd='" + deliveryAdd + '\'' +
