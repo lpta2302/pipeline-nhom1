@@ -1,4 +1,4 @@
-package vn.edu.ueh.bit.pipes.core;
+package vn.edu.ueh.bit.pipes.core.entities;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

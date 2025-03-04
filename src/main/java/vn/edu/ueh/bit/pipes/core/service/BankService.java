@@ -1,4 +1,4 @@
-package vn.edu.ueh.bit.pipes.simulate.service;
+package vn.edu.ueh.bit.pipes.core.service;
 
 public class BankService {
     private static float balance = (float) Math.random() * 100000f;

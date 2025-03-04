@@ -1,6 +1,6 @@
-package vn.edu.ueh.bit.pipes.core.entities;
+package vn.edu.ueh.bit.pipes.core.entities.interfaces;
 
-import vn.edu.ueh.bit.pipes.core.InvoiceInfo;
+import vn.edu.ueh.bit.pipes.core.entities.InvoiceInfo;
 
 public interface IMessage {
     InvoiceInfo getInvoiceInfo();

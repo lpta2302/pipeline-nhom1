@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
-import vn.edu.ueh.bit.pipes.simulate.entity.Area;
-import vn.edu.ueh.bit.pipes.simulate.entity.Product;
-import vn.edu.ueh.bit.pipes.simulate.service.AreaService;
-import vn.edu.ueh.bit.pipes.simulate.service.ProductService;
+import vn.edu.ueh.bit.pipes.core.entities.Area;
+import vn.edu.ueh.bit.pipes.core.entities.Product;
+import vn.edu.ueh.bit.pipes.core.service.AreaService;
+import vn.edu.ueh.bit.pipes.core.service.ProductService;
 
 @RequiredArgsConstructor
 @Component
